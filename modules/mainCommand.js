@@ -1,3 +1,10 @@
+const moveForward = require("./moveForward").moveForward;
+const moveBackward = require("./moveBackward").moveBackward;
+const turnLeft = require("./turnLeft").turnLeft;
+const turnRight = require("./turnRight").turnRight;
+const turnUp = require("./turnUp").turnUp;
+const turnDown = require("./turnDown").turnDown;
+
 function mainCommand(commands, start) {
   let direction = start.direction;
   let coordinates = start.coordinates;
