@@ -12,10 +12,10 @@ function turnRight(Direction) {
     return "N";
   }
   if (Direction === "U") {
-    return "E";
+    return "S";
   }
   if (Direction === "D") {
-    return "W";
+    return "N";
   }  
   
 }
