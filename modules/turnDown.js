@@ -1,16 +1,8 @@
 function turnDown(Direction) {
-    if (Direction == "N" || Direction == "S" || Direction == "E" || Direction == "W") 
+    if (Direction != "D") 
     {
       return "D";
-    }
-    if (Direction === "U") 
-    {
-      return "S";
-    }
-    if (Direction === "D") 
-    {
-      return "N";
-    }  
+    } 
   }
   
   module.exports = {
