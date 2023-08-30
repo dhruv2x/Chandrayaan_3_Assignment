@@ -1,4 +1,4 @@
-const moveForward = require("../modules/moveForward").moveForward;
+const moveForward = require("../../modules/moveForward").moveForward;
 
 test("moves forward if direction is North", () => {
   let Direction = "N";
